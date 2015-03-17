@@ -6,6 +6,12 @@
 # Difficulty: easy.
 
 def reverse(string)
+  i = 0
+  while i < string.length
+    backWord.unshift(string[i])
+    i = i + 1
+  end
+  return backWord.join("")
 end
 
 # These are tests to check that your code is working. After writing
